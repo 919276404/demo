@@ -23,11 +23,10 @@ public class NormalRecyclerViewAdapter extends RecyclerView.Adapter<NormalRecycl
     private Context mContext;
     private int count=9;
 
-    public NormalRecyclerViewAdapter(Context context, List<String> datas) {
+    public NormalRecyclerViewAdapter(Context context,int layout, List<String> datas) {
 //        mLayoutInflater = LayoutInflater.from(context);
         this. mContext=context;
         mDatas=datas;
-
     }
 
     @Override
